@@ -11,6 +11,7 @@
     "preview": "vite preview",
     "start": "vite",
     "server": "json-server --watch public/db.json --port 3000",
+    "build:tailwind": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
