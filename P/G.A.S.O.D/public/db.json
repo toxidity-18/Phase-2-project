@@ -1,0 +1,92 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Brake Pads",
+      "description": "High-quality brake pads for various vehicle models.",
+      "price": 29.99,
+      "image": "https://i.pinimg.com/564x/be/d2/9d/bed29d329d9ee212b7ef72ba2c48fd8a.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Oil Filter",
+      "description": "Durable oil filter to keep your engine running smoothly.",
+      "price": 15.99,
+      "image": "https://i.pinimg.com/564x/33/c4/32/33c432a263876cb1a7ec7bda2da87c68.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Spark Plugs",
+      "description": "Reliable spark plugs for efficient ignition.",
+      "price": 8.49,
+      "image": "https://i.pinimg.com/564x/c6/07/88/c60788818223242bf3be07d79ec74671.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Brake Fluid",
+      "description": "Premium brake fluid for smooth and efficient braking.",
+      "price": 24.99,
+      "image": "https://i.pinimg.com/736x/bd/82/a7/bd82a7429ec29741ef71c5a5f83867d1.jpg"
+    }
+    
+  ],
+  "orders": [
+    {
+      "id": "1001",
+      "status": "Processing",
+      "items": [
+        {
+          "productId": "1",
+          "quantity": 2
+        },
+        {
+          "productId": "3",
+          "quantity": 4
+        }
+      ],
+      "total": 85.93
+    },
+    {
+      "id": "1002",
+      "status": "Shipped",
+      "items": [
+        {
+          "productId": "2",
+          "quantity": 1
+        }
+      ],
+      "total": 15.99
+    }
+  ],
+  "feedback": [
+    {
+      "id": "1",
+      "rating": 5,
+      "review": "Excellent service and fast delivery!",
+      "userId": "user1"
+    },
+    {
+      "id": "2",
+      "rating": 4,
+      "review": "Good quality parts, but the delivery was slightly delayed.",
+      "userId": "user2"
+    },
+    {
+      "id": "f659",
+      "rating": 4,
+      "comment": "nice"
+    }
+  ],
+  "users": [
+    {
+      "id": "user1",
+      "email": "user1@example.com",
+      "password": "password123"
+    },
+    {
+      "id": "user2",
+      "email": "user2@example.com",
+      "password": "password456"
+    }
+  ]
+}
